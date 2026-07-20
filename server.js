@@ -152,4 +152,8 @@ async function serve(req, res) {
   } catch (error) { if (error.code === 'ENOENT') return staticSend(res, 404, 'Not found', 'text/plain'); console.error(error); return send(res, 500, { error: 'Internal server error' }); }
 }
 
-init().then(() => http.createServer(serve).listen(PORT, '127.0.0.1', () => console.log(`Sharma Homeware platform running at http://127.0.0.1:${PORT}`)));
+init().then(() => {
+  http.createServer(serve).listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+});
