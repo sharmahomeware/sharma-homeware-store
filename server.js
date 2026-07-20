@@ -148,7 +148,10 @@ async function serve(req, res) {
   try {
     if (url.pathname.startsWith('/api/') || url.pathname === '/robots.txt' || url.pathname === '/sitemap.xml') return await api(req, res, url);
     const requested = url.pathname === '/' ? '/index.html' : url.pathname; const file = path.resolve(ROOT, `.${decodeURIComponent(requested)}`); if (!file.startsWith(ROOT)) return staticSend(res, 403, 'Forbidden', 'text/plain');
-    const content = await fs.readFile(file); const types = { '.html': 'text/html; charset=utf-8', '.js': 'application/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml' }; return staticSend(res, 200, content, types[path.extname(file)] || 'application/octet-stream');
+    console.log("ROOT =", ROOT);
+    console.log("FILE =", file);
+
+   const content = await fs.readFile(file); const types = { '.html': 'text/html; charset=utf-8', '.js': 'application/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml' }; return staticSend(res, 200, content, types[path.extname(file)] || 'application/octet-stream');
   } catch (error) { if (error.code === 'ENOENT') return staticSend(res, 404, 'Not found', 'text/plain'); console.error(error); return send(res, 500, { error: 'Internal server error' }); }
 }
 
