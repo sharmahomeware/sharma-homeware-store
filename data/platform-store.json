@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-14T10:54:55.360Z",
+  "storefront": {
+    "activeLocale": "en",
+    "enabledLocales": [
+      "en",
+      "hi",
+      "pa"
+    ],
+    "theme": {
+      "mode": "light",
+      "primary": "#B3122E",
+      "gold": "#BD9131"
+    },
+    "home": {
+      "en": {
+        "heroEyebrow": "Designed for the daily ritual",
+        "heroTitle": "Crafted for every",
+        "heroAccent": "Indian kitchen.",
+        "heroCopy": "Beautiful, enduring steelware that turns everyday cooking into something you want to linger over.",
+        "ctaLabel": "Shop the collection",
+        "ctaHref": "#/category/cookware",
+        "festival": "Monsoon Edit — 10% off orders above ₹2,999",
+        "festivalLink": "#/category/cookware"
+      },
+      "hi": {
+        "heroEyebrow": "रोज़मर्रा की रस्मों के लिए",
+        "heroTitle": "हर",
+        "heroAccent": "भारतीय रसोई के लिए।",
+        "heroCopy": "सुंदर और टिकाऊ स्टीलवेयर, जो हर रोज़ के खाना बनाने को खास बनाता है।",
+        "ctaLabel": "कलेक्शन देखें",
+        "ctaHref": "#/category/cookware",
+        "festival": "मानसून एडिट — ₹2,999 से ऊपर 10% की बचत",
+        "festivalLink": "#/category/cookware"
+      },
+      "pa": {
+        "heroEyebrow": "ਰੋਜ਼ਾਨਾ ਦੀ ਰਸੋਈ ਲਈ",
+        "heroTitle": "ਹਰ",
+        "heroAccent": "ਭਾਰਤੀ ਰਸੋਈ ਲਈ।",
+        "heroCopy": "ਸੁੰਦਰ ਅਤੇ ਟਿਕਾਊ ਸਟੀਲਵੇਅਰ ਜੋ ਰੋਜ਼ਮਰ੍ਹਾ ਦੀ ਰਸੋਈ ਨੂੰ ਖਾਸ ਬਣਾਉਂਦਾ ਹੈ।",
+        "ctaLabel": "ਕਲੈਕਸ਼ਨ ਦੇਖੋ",
+        "ctaHref": "#/category/cookware",
+        "festival": "ਮਾਨਸੂਨ ਐਡਿਟ — ₹2,999 ਤੋਂ ਉੱਤੇ 10% ਬਚਤ",
+        "festivalLink": "#/category/cookware"
+      }
+    },
+    "contact": {
+      "phone": "+91 99999 99999",
+      "whatsapp": "+91 99999 99999",
+      "email": "hello@sharmahomeware.in",
+      "address": "Mumbai, Maharashtra, India",
+      "hours": "Mon–Sat, 10 AM–7 PM",
+      "mapUrl": ""
+    },
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "youtube": "",
+      "pinterest": ""
+    },
+    "seo": {
+      "title": "Sharma Homeware — Crafted for every Indian kitchen",
+      "description": "Premium cookware, steel utensils and dinnerware for Indian homes.",
+      "keywords": "steel utensils, cookware, dinner sets, homeware India",
+      "ogImage": ""
+    },
+    "featureFlags": {
+      "cod": true,
+      "reviews": true,
+      "whatsapp": true,
+      "newsletter": true
+    }
+  },
+  "categories": [
+    {
+      "id": "cookware",
+      "name": "Cookware",
+      "slug": "cookware",
+      "description": "Kadais, tawas and pressure cookers.",
+      "image": "",
+      "position": 1,
+      "visible": true,
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": "steel-utensils",
+      "name": "Steel Utensils",
+      "slug": "steel-utensils",
+      "description": "Steel plates, bowls and glasses.",
+      "image": "",
+      "position": 2,
+      "visible": true,
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": "dinner-sets",
+      "name": "Dinner Sets",
+      "slug": "dinner-sets",
+      "description": "Dining sets and serveware.",
+      "image": "",
+      "position": 3,
+      "visible": true,
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": "storage",
+      "name": "Storage Containers",
+      "slug": "storage",
+      "description": "Airtight jars and masala boxes.",
+      "image": "",
+      "position": 4,
+      "visible": true,
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": "bottles-flasks",
+      "name": "Bottles & Flasks",
+      "slug": "bottles-flasks",
+      "description": "Steel bottles and insulated flasks.",
+      "image": "",
+      "position": 5,
+      "visible": true,
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": "kitchen-tools",
+      "name": "Kitchen Tools",
+      "slug": "kitchen-tools",
+      "description": "Ladles, graters and kitchen gadgets.",
+      "image": "",
+      "position": 6,
+      "visible": true,
+      "seoTitle": "",
+      "seoDescription": ""
+    }
+  ],
+  "products": [
+    {
+      "id": "aurum-tri-ply-kadai",
+      "name": "Aurum Tri-Ply Kadai",
+      "slug": "aurum-tri-ply-kadai",
+      "category": "cookware",
+      "subcategory": "",
+      "brand": "Sharma Homeware",
+      "price": 2499,
+      "salePrice": 2299,
+      "oldPrice": 2999,
+      "gst": 12,
+      "stock": 18,
+      "lowStockAt": 8,
+      "status": "active",
+      "featured": true,
+      "bestseller": true,
+      "newArrival": false,
+      "rating": 4.9,
+      "reviews": 128,
+      "badge": "Bestseller",
+      "material": "Tri-ply steel",
+      "capacity": "2.2 L",
+      "image": "kadai",
+      "images": [],
+      "videos": [],
+      "sku": "SH-CK-AUR-24",
+      "barcode": "890000000001",
+      "weight": "1.35 kg",
+      "dimensions": "24 × 24 × 10 cm",
+      "shippingInfo": "Ships in 1–2 business days",
+      "description": "A responsive, beautifully balanced kadai for the dishes that bring everyone to the table.",
+      "specifications": {
+        "construction": "Tri-ply stainless steel",
+        "compatible": "Gas and induction",
+        "warranty": "7 years"
+      },
+      "careInstructions": "Hand wash recommended. Dry immediately after washing.",
+      "tags": [
+        "cookware",
+        "kadai",
+        "tri-ply"
+      ],
+      "variants": [
+        {
+          "id": "aur-20",
+          "name": "20 cm",
+          "sku": "SH-CK-AUR-20",
+          "price": 2199,
+          "stock": 12
+        },
+        {
+          "id": "aur-24",
+          "name": "24 cm",
+          "sku": "SH-CK-AUR-24",
+          "price": 2499,
+          "stock": 18
+        }
+      ],
+      "seoTitle": "Aurum Tri-Ply Kadai | Sharma Homeware",
+      "seoDescription": "Premium tri-ply steel kadai for Indian cooking.",
+      "metaKeywords": [
+        "kadai",
+        "tri-ply",
+        "steel kadai"
+      ],
+      "createdAt": "2026-07-14T10:54:55.338Z",
+      "updatedAt": "2026-07-14T10:54:55.338Z"
+    },
+    {
+      "id": "heritage-thali-set",
+      "name": "Heritage Thali Set",
+      "slug": "heritage-thali-set",
+      "category": "dinner-sets",
+      "subcategory": "",
+      "brand": "Sharma Homeware",
+      "price": 3299,
+      "salePrice": 2999,
+      "oldPrice": 3999,
+      "gst": 12,
+      "stock": 8,
+      "lowStockAt": 10,
+      "status": "active",
+      "featured": true,
+      "bestseller": true,
+      "newArrival": false,
+      "rating": 4.8,
+      "reviews": 94,
+      "badge": "Festive edit",
+      "material": "304 food-grade steel",
+      "capacity": "24 pc",
+      "image": "thali",
+      "images": [],
+      "videos": [],
+      "sku": "SH-DS-HER-24",
+      "barcode": "890000000002",
+      "weight": "3.2 kg",
+      "dimensions": "34 × 34 × 11 cm",
+      "shippingInfo": "Ships in 2–3 business days",
+      "description": "A complete dining ritual in mirror-finished food-grade steel.",
+      "specifications": {
+        "pieces": 24,
+        "material": "304 stainless steel",
+        "finish": "Mirror polish"
+      },
+      "careInstructions": "Dishwasher safe. Avoid abrasive scrubbers.",
+      "tags": [
+        "thali",
+        "dinner set",
+        "serveware"
+      ],
+      "variants": [
+        {
+          "id": "heritage-4",
+          "name": "4 settings",
+          "sku": "SH-DS-HER-4",
+          "price": 3299,
+          "stock": 8
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "metaKeywords": [],
+      "createdAt": "2026-07-14T10:54:55.338Z",
+      "updatedAt": "2026-07-14T10:54:55.338Z"
+    },
+    {
+      "id": "saffron-vacuum-flask",
+      "name": "Saffron Vacuum Flask",
+      "slug": "saffron-vacuum-flask",
+      "category": "bottles-flasks",
+      "subcategory": "",
+      "brand": "Sharma Homeware",
+      "price": 1199,
+      "salePrice": 1099,
+      "oldPrice": 1499,
+      "gst": 18,
+      "stock": 26,
+      "lowStockAt": 8,
+      "status": "active",
+      "featured": true,
+      "bestseller": false,
+      "newArrival": true,
+      "rating": 4.9,
+      "reviews": 211,
+      "badge": "New",
+      "material": "18/8 steel",
+      "capacity": "750 ml",
+      "image": "flask",
+      "images": [],
+      "videos": [],
+      "sku": "SH-BF-SAF-750",
+      "barcode": "890000000003",
+      "weight": "420 g",
+      "dimensions": "8 × 8 × 29 cm",
+      "shippingInfo": "Ships in 1–2 business days",
+      "description": "Keeps chai warm and water cool, with a silhouette made to leave on the desk.",
+      "specifications": {
+        "insulation": "Double-wall vacuum",
+        "retention": "12 hours hot / 18 hours cold"
+      },
+      "careInstructions": "Hand wash only. Do not microwave.",
+      "tags": [
+        "flask",
+        "bottle",
+        "travel"
+      ],
+      "variants": [
+        {
+          "id": "saf-500",
+          "name": "500 ml",
+          "sku": "SH-BF-SAF-500",
+          "price": 999,
+          "stock": 19
+        },
+        {
+          "id": "saf-750",
+          "name": "750 ml",
+          "sku": "SH-BF-SAF-750",
+          "price": 1199,
+          "stock": 26
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "metaKeywords": [],
+      "createdAt": "2026-07-14T10:54:55.338Z",
+      "updatedAt": "2026-07-14T10:54:55.338Z"
+    },
+    {
+      "id": "modular-masala-dabba",
+      "name": "Modular Masala Dabba",
+      "slug": "modular-masala-dabba",
+      "category": "storage",
+      "subcategory": "",
+      "brand": "Sharma Homeware",
+      "price": 1599,
+      "salePrice": null,
+      "oldPrice": 1899,
+      "gst": 12,
+      "stock": 5,
+      "lowStockAt": 8,
+      "status": "active",
+      "featured": false,
+      "bestseller": false,
+      "newArrival": false,
+      "rating": 4.7,
+      "reviews": 81,
+      "badge": null,
+      "material": "304 food-grade steel",
+      "capacity": "7 compartment",
+      "image": "dabba",
+      "images": [],
+      "videos": [],
+      "sku": "SH-ST-MAS-7",
+      "barcode": "890000000004",
+      "weight": "860 g",
+      "dimensions": "22 × 22 × 8 cm",
+      "shippingInfo": "Ships in 1–2 business days",
+      "description": "The quiet order of seven essential spices, sealed in a weighty steel case.",
+      "specifications": {
+        "compartments": 7,
+        "lid": "Tight fitting"
+      },
+      "careInstructions": "Dry thoroughly before storing spices.",
+      "tags": [
+        "storage",
+        "masala",
+        "organizer"
+      ],
+      "variants": [],
+      "seoTitle": "",
+      "seoDescription": "",
+      "metaKeywords": [],
+      "createdAt": "2026-07-14T10:54:55.338Z",
+      "updatedAt": "2026-07-14T10:54:55.338Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "SH-81472",
+      "number": "SH-81472",
+      "customerId": "cus_aarav",
+      "customer": {
+        "name": "Aarav Sharma",
+        "email": "aarav.sharma@email.com",
+        "phone": "+91 98765 43210"
+      },
+      "items": [
+        {
+          "productId": "aurum-tri-ply-kadai",
+          "name": "Aurum Tri-Ply Kadai",
+          "qty": 1,
+          "price": 2499
+        }
+      ],
+      "subtotal": 2499,
+      "discount": 0,
+      "shipping": 0,
+      "total": 2499,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "status": "out_for_delivery",
+      "trackingNumber": "SHRMA-924728",
+      "notes": "",
+      "createdAt": "2026-07-14T10:54:55.338Z",
+      "updatedAt": "2026-07-14T10:54:55.338Z"
+    },
+    {
+      "id": "SH-81460",
+      "number": "SH-81460",
+      "customerId": "cus_meera",
+      "customer": {
+        "name": "Meera Shah",
+        "email": "meera@example.com",
+        "phone": "+91 98111 11111"
+      },
+      "items": [
+        {
+          "productId": "heritage-thali-set",
+          "name": "Heritage Thali Set",
+          "qty": 1,
+          "price": 3299
+        }
+      ],
+      "subtotal": 3299,
+      "discount": 300,
+      "shipping": 0,
+      "total": 2999,
+      "paymentMethod": "razorpay",
+      "paymentStatus": "paid",
+      "status": "packed",
+      "trackingNumber": "",
+      "notes": "",
+      "createdAt": "2026-07-14T10:54:55.338Z",
+      "updatedAt": "2026-07-14T10:54:55.338Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cus_aarav",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@email.com",
+      "phone": "+91 98765 43210",
+      "status": "active",
+      "addresses": [
+        {
+          "label": "Home",
+          "address": "A-12, Palm Grove Apartments, Bandra West, Mumbai — 400050"
+        }
+      ],
+      "wishlist": [],
+      "createdAt": "2026-07-14T10:54:55.338Z"
+    },
+    {
+      "id": "cus_meera",
+      "name": "Meera Shah",
+      "email": "meera@example.com",
+      "phone": "+91 98111 11111",
+      "status": "active",
+      "addresses": [],
+      "wishlist": [],
+      "createdAt": "2026-07-14T10:54:55.338Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_owner",
+      "name": "Sharma Homeware Owner",
+      "email": "owner@sharmahomeware.in",
+      "role": "owner",
+      "permissions": [
+        "*"
+      ],
+      "active": true,
+      "passwordHash": "2448a9b79e619c7ba403f975abb772e3:4abf1a7ace0ae722ec64b35289b2f7fd844a78a3ec1bb91bf2c78e128d7d8c08e3f5c0b1e040a4f0076517c70f0e1920bf23efb2ab7580d5af4bbf228ca1fc86",
+      "createdAt": "2026-07-14T10:54:55.360Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coupon_MONSOON10",
+      "code": "MONSOON10",
+      "type": "percentage",
+      "value": 10,
+      "minOrder": 2999,
+      "maxDiscount": 700,
+      "freeShipping": false,
+      "startsAt": "2026-07-14T10:54:55.338Z",
+      "expiresAt": "2026-08-31T23:59:59.000Z",
+      "usageLimit": 500,
+      "usageCount": 0,
+      "active": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review_001",
+      "productId": "aurum-tri-ply-kadai",
+      "customer": "Aparna Mehta",
+      "rating": 5,
+      "title": "A beautiful everyday kadai",
+      "body": "Thoughtful weight and very even heating.",
+      "images": [],
+      "status": "approved",
+      "createdAt": "2026-07-14T10:54:55.338Z"
+    }
+  ],
+  "media": [],
+  "inventoryHistory": [],
+  "legal": {
+    "about": "<h1>About Sharma Homeware</h1><p>Objects made for the heart of Indian homes.</p>",
+    "privacy": "<h1>Privacy Policy</h1><p>Last updated: July 2026.</p>",
+    "terms": "<h1>Terms & Conditions</h1><p>Last updated: July 2026.</p>",
+    "shipping": "<h1>Shipping Policy</h1><p>Orders ship pan-India.</p>",
+    "returns": "<h1>Return & Refund Policy</h1><p>7-day easy returns on eligible products.</p>",
+    "faq": "<h1>Frequently asked questions</h1><p>Contact us for any help.</p>"
+  }
+}

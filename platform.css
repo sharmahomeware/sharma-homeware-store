@@ -1,0 +1,1 @@
+.language-switcher{display:flex;gap:2px;margin-right:9px}.language-switcher button{font-size:8px;font-weight:700;letter-spacing:.03em;color:#80776f;padding:5px 4px;border-radius:3px}.language-switcher button.is-active{background:#eee9e2;color:#b3122e}@media(max-width:780px){.language-switcher{display:none}}

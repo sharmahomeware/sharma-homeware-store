@@ -1,0 +1,8 @@
+[
+  { "id": "aurum-tri-ply-kadai", "name": "Aurum Tri-Ply Kadai", "category": "Cookware", "price": 2499, "material": "Tri-ply steel", "capacity": "2.2 L", "rating": 4.9 },
+  { "id": "heritage-thali-set", "name": "Heritage Thali Set", "category": "Dinner Sets", "price": 3299, "material": "304 food-grade steel", "capacity": "24 pc", "rating": 4.8 },
+  { "id": "saffron-vacuum-flask", "name": "Saffron Vacuum Flask", "category": "Bottles & Flasks", "price": 1199, "material": "18/8 steel", "capacity": "750 ml", "rating": 4.9 },
+  { "id": "modular-masala-dabba", "name": "Modular Masala Dabba", "category": "Storage", "price": 1599, "material": "304 food-grade steel", "capacity": "7 compartment", "rating": 4.7 },
+  { "id": "everyday-bowl-set", "name": "Everyday Katori Set", "category": "Steel Utensils", "price": 899, "material": "304 food-grade steel", "capacity": "Set of 6", "rating": 4.8 },
+  { "id": "atelier-tool-set", "name": "Atelier Tool Set", "category": "Kitchen Tools", "price": 1399, "material": "Stainless steel", "capacity": "Set of 5", "rating": 4.7 }
+]

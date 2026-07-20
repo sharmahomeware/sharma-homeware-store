@@ -1,0 +1,13 @@
+{
+  "name": "sharma-homeware-commerce-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sharma Homeware storefront and owner control center",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check js/app.js && node --check js/admin-portal.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
